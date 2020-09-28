@@ -1,0 +1,5 @@
+spec: "./src/*.test.js"
+recursive: true
+require: ./test.config.js
+parallel: true
+jobs: 4
