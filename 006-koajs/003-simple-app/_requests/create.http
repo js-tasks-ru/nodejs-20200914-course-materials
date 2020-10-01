@@ -1,0 +1,11 @@
+POST http://localhost:3000/books
+Content-Type: application/json
+#Content-Type: application/x-www-form-urlencoded
+#title=title&author=author
+
+#Content-Type: multipart/form-data <- @koa/multer
+
+{
+  "title": "title",
+  "author": "author"
+}
